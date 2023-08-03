@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "contenedor-origen/{name}",
+      "connection": "source_conn_string"
+    }
+  ],
+  "disabled": false
+}
